@@ -12,3 +12,7 @@ def health():
 @app.route('/about')
 def about():
     return 'This is a sample Flask application for DevOps demonstration.'
+
+@app.route('/contact')
+def contact():
+    return 'Contact us at 9342342342 or email at hospital@123.com'
