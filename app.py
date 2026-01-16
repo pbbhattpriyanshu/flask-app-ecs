@@ -10,5 +10,5 @@ def health():
     return 'Server is up and running'
 
 @app.route('/about')
-def about();
+def about():
     return 'This is a sample Flask application for DevOps demonstration.'
