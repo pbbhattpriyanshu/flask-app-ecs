@@ -1,0 +1,59 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --------------------
+# Virtual Environment
+# --------------------
+.venv/
+venv/
+ENV/
+env/
+
+# --------------------
+# Environment variables
+# --------------------
+.env
+.env.*
+
+# --------------------
+# Flask
+# --------------------
+instance/
+.webassets-cache
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# OS / Editor junk
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------
+# Docker
+# --------------------
+*.pid
+
+# --------------------
+# Test / coverage
+# --------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --------------------
+# Build artifacts
+# --------------------
+dist/
+build/
+*.egg-info/
